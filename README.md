@@ -9,8 +9,8 @@ Merge or copy the initPlayerLocal.sqf
 
   
 ## Settings
-All the settings that can be changed are inside \custom\ChaosAutoPilot\AutoPilotConfig.h
-<br />
+All the settings that can be changed are inside \custom\ChaosAutoPilot\AutoPilotConfig.h  
+
 
 | Variable      | Purpose |
 |---------------|---------|
@@ -21,6 +21,9 @@ All the settings that can be changed are inside \custom\ChaosAutoPilot\AutoPilot
 You can change the audio file by replacing the alarm.ogg file in the custom folder (keep the same name and file format)  
 You can change the the volume in the description.ext "sound[] = {"custom\MWarning\alarm.ogg", 0.4, 0.8};" 0.4 being the volume and 0.8 the pitch  
 
+### dialog.hpp
+You can change the appearance of the dialog message inside dialog.hpp if you search for the ``` class Attributes ```  
+and you can change the text by replacing whatever is inside ``` text = "Missile Incoming!"; ```
  
 
 ## License
