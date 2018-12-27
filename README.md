@@ -3,7 +3,7 @@ Plays a sound and display warning when a rocket is locked/launched at the vehicl
 
 ## Installation
 ### Exile
-Copy the custom folder into your Exile.<MapName> folder.  
+Copy the custom folder into your Exile.MapName folder.  
 Merge or copy the description.ext  
 Merge or copy the initPlayerLocal.sqf  
 
