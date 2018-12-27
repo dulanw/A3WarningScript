@@ -18,6 +18,10 @@ All the settings that can be changed are inside \custom\ChaosAutoPilot\AutoPilot
 | BLACKLIST | vehicle classes to be blacklisted using isKindOf (blacklist subclasses) all quadbikes blacklisted by default |
 | ALLOWED | vehicles to be included if enable all is set to false |
 
+You can change the audio file by replacing the alarm.ogg file in the custom folder (keep the same name and file format)  
+You can change the the volume in the description.ext "sound[] = {"custom\MWarning\alarm.ogg", 0.4, 0.8};" 0.4 being the volume and 0.8 the pitch  
+
+ 
 
 ## License
 Noncommercial - You may not use this material for any commercial purposes. 
