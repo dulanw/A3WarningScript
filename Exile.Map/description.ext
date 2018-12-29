@@ -1,4 +1,8 @@
-#include "custom\MWarning\dialog.hpp"
+class RscTitles
+{
+	#include "custom\MWarning\dialog.hpp"
+};
+
 
 class CfgSounds
 {
