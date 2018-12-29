@@ -1,4 +1,4 @@
-# A3AWarningScript
+# A3WarningScript
 Plays a sound and display warning when a rocket is locked/launched at the vehicle, any vehicle class can be blacklisted in the config files and works for all vehicles by default (except quadbikes, blacklisted as an example)
 
 ## Installation
