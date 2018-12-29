@@ -34,11 +34,11 @@ _handle  = [] spawn {
 		{
 			_eventhandle = _veh addEventHandler ["IncomingMissile", 
 			{
-				_isNull = isNull (uiNameSpace getVariable "MWarning");				
+				_isNull = (isNull (uiNameSpace getVariable "MWarning") || isNil {uiNameSpace getVariable "MWarning"});				
 				if (_isNull) then
 				{
-					null = []execVM "custom\MWarning\ShowMWarning.sqf"; 
 					playSound "MWarningAlarm";
+					null = []execVM "custom\MWarning\ShowMWarning.sqf"; 
 				};	
 			}];
 		};
