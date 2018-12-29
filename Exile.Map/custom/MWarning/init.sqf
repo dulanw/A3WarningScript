@@ -34,7 +34,7 @@ _handle  = [] spawn {
 		{
 			_eventhandle = _veh addEventHandler ["IncomingMissile", 
 			{
-				_isNull = (isNull (uiNameSpace getVariable "MWarning") || isNil {uiNameSpace getVariable "MWarning"});				
+				_isNull = isNull (uiNameSpace getVariable ["MWarning", displayNull]);			
 				if (_isNull) then
 				{
 					playSound "MWarningAlarm";
