@@ -1,5 +1,5 @@
 #define ENABLE_ALL false //enable it for all vehicles, ignore all the other options except blacklist
-#define BLACKLIST ["Quadbike_01_base_F"] //vehicle classes to be blacklisted using isKindOf (blacklist subclasses)
+#define BLACKLIST [] //vehicle classes to be blacklisted using isKindOf (blacklist subclasses)
 
 #define ALLOWED ["Plane","Tank","Helicopter","Wheeled_APC"] //vehicles to be included if enable all is set to false
 

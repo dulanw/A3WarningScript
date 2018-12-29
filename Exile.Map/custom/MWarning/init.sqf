@@ -2,10 +2,10 @@
 
 _handle  = [] spawn {
 	while {true} do {
-		waitUntil{!isNil "ExileClientLoadedIn"};
-		UISleep 0.1;
-		waitUntil{ExileClientLoadedIn};
-		UISleep 0.1;
+		//waitUntil{!isNil "ExileClientLoadedIn"};
+		//UISleep 0.1;
+		//waitUntil{ExileClientLoadedIn};
+		//UISleep 0.1;
 		waitUntil{alive player}; //All above, code to be sure to wait for the exile client to be fully loaded in.
 		waitUntil{ (player != vehicle player) }; //All above, code to be sure to wait for the exile client to be fully loaded in.
 
@@ -34,12 +34,12 @@ _handle  = [] spawn {
 		{
 			_eventhandle = _veh addEventHandler ["IncomingMissile", 
 			{
-				_isNull = isNull (uiNameSpace getVariable "MWarning");	
+				_isNull = isNull (uiNameSpace getVariable "MWarning");				
 				if (_isNull) then
 				{
 					null = []execVM "custom\MWarning\ShowMWarning.sqf"; 
 					playSound "MWarningAlarm";
-				};			
+				};	
 			}];
 		};
 		

@@ -1,13 +1,6 @@
-class Default 
-{
-   idd = -1;
-   fadein = 0;
-   fadeout = 0;
-   duration = 0;
-};
 class MWarning
 {
-	idd = 1000000;
+	idd = 734698;
 	movingEnable =  0;
 	enableSimulation = 1;
 	enableDisplay = 1;
